@@ -8,7 +8,7 @@ pipeline {
 	       sh 'ls'
 	       }
 	     }
-	   }
+	   
        stage('test') {
            steps {
 	       sh 'echo new stage added'
@@ -16,4 +16,4 @@ pipeline {
 	       }
 	      } 
 	}
-
+}
