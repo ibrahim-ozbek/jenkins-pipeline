@@ -14,6 +14,14 @@ pipeline {
 	       sh 'echo new stage added'
 	       sh 'echo good job bay bay'
 	       }
-	      } 
+	      }
+       stage('deploy') {
+           steps {
+	       sh 'echo hello your application'
+	       sh 'python --version'
+	       sh 'python pipeline.py'
+	       }
+	    }
+	 }   
 	}
-}
+
