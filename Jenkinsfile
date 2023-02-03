@@ -12,7 +12,7 @@ pipeline {
        stage('test') {
            steps {
 	       sh 'echo new stage added'
-	       sh 'good job bay bay'
+	       sh 'echo good job bay bay'
 	       }
 	      } 
 	}
