@@ -18,8 +18,7 @@ pipeline {
        stage('deploy') {
            steps {
 	       sh 'echo hello your application-222'
-	       sh 'python --version'
-	       sh 'python pipeline.py'
+	       
 	       }
 	    }
 	 }   
